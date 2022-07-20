@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 004</title>
+    <style>
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+        tr,th,td {
+            border: 02px solid black;
+            padding: 0px 5px 0px 3px;
+            
+        }
+
+        tr{}
+
+        th{}
+
+        td{text-align: left;}
+
+        strong{
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>Grupo</strong></th>
+                <th scope="col" style="width: 150px;"><strong>Nomes</strong></th>
+                <th scope="colgroup" style="width:2000px;" colspan="3"><strong>Filmes</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Mulhres</strong></th>
+                <td>Ayla Lourenço</td>
+                <td>Batman</td>
+                <td>Oldboy</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Leila Lourenço</td>
+                <td>Oblivion</td>
+                <td>Amnésia</td>
+                <td>Footloose</td>
+            </tr>
+            <tr>
+                <td>Bruna Cristina</td>
+                <td>Big Hero</td>
+                <td>Inception</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Homens</strong></th>
+                <td>Genael Lourenço</td>
+                <td>Jackass</td>
+                <td>Matrix</td>
+                <td>Homem Aranha</td>
+            </tr>
+            <tr>
+                <td>Bénicio Lourenço</td>
+                <td>Super Man</td>
+                <td>Wall-E</td>
+                <td>Mario Brows</td>
+            </tr>
+            <tr>
+                <td>Mauricio Campos</td>
+                <td>intocáveis</td>
+                <td>Star wars 5</td>
+                <td>Toy Story</td>
+            </tr>
+            
+        
+        </tbody>
+    </table>
+</body>
+</html>

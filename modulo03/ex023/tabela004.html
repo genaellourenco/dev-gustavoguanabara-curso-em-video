@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+           width: 500px;
+           border-collapse: collapse;
+        }
+
+        caption{
+            padding: 10px;
+            font-weight:bold;
+            font-size: 25px;
+        }
+    
+    td,th{
+            border: 02px solid black;
+            padding: 08px;
+        }
+
+        td{
+            text-align: center;
+        }
+
+        .nome {
+            background-color: greenyellow;
+        }
+
+        .sexo{
+            background-color: rgb(29, 127, 212);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="idade">
+            <col class="sexo">
+            <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tbody>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Bruna</td>
+                <td>26</td>
+                <td>Fem</td>
+                <td>Atoa</td>
+            </tr>
+            <tr>
+                <td>Bénicio</td>
+                <td>5</td>
+                <td>Masc</td>
+                <td>Principe</td>
+            </tr>
+            <tr>
+                <td>Delma</td>
+                <td>60</td>
+                <td>Fem</td>
+                <td>Dolar</td>
+            </tr>
+            <tr>
+                <td>Ayla</td>
+                <td>2</td>
+                <td>Fem</td>
+                <td>Princesa</td>
+            </tr>
+            <tr>
+                <td>Mauricio</td>
+                <td>43</td>
+                <td>Masc</td>
+                <td>Soldador</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>

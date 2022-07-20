@@ -1,0 +1,12 @@
+body{
+    font-family: serif;
+}
+h1{
+   font-weight:bolder; 
+   font-size: 45px;
+   text-align: center;
+}
+ul{
+    font-weight: bold;
+    list-style: square;
+}
